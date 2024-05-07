@@ -9,7 +9,7 @@ import { Sandbox } from './Sandbox'
 import * as TestCases from './usecases'
 
 // useful for debugging why things render:
-// import './wdyr'
+import './wdyr'
 
 if (typeof require !== 'undefined') {
   globalThis['React'] = require('react') // webpack
@@ -97,7 +97,8 @@ const SandboxFrame = (props: { children: any; centered?: boolean }) => {
                   })}
                   bg={screenshot ? 'transparent' : '$background'}
                 >
-                  {props.children}
+                  {/* d
+                  {props.children} */}
                 </YStack>
               </Theme>
             </>

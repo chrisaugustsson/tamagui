@@ -316,9 +316,6 @@ export declare const Popover: React.ForwardRefExoticComponent<PopperProps & {
             } | undefined;
             open?: boolean | undefined;
             transparent?: boolean | undefined;
-            /**
-             * @see https://github.com/theKashey/react-remove-scroll#usage
-             */
             circular?: boolean | undefined;
             unstyled?: boolean | undefined;
             backgrounded?: boolean | undefined;

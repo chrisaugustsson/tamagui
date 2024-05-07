@@ -89,8 +89,7 @@ export function SelectDemoItem(props: SelectProps) {
           <Select.Group>
             <Select.Label>Fruits</Select.Label>
             {/* for longer lists memoizing these is useful */}
-            {useMemo(
-              () =>
+            {
                 items.map((item, i) => {
                   return (
                     <Select.Item
@@ -104,8 +103,7 @@ export function SelectDemoItem(props: SelectProps) {
                       </Select.ItemIndicator>
                     </Select.Item>
                   )
-                }),
-              [items]
+                },
             )}
           </Select.Group>
           {/* Native gets an extra icon */}

@@ -86,9 +86,6 @@ export declare const DialogOverlayFrame: import("@tamagui/core").TamaguiComponen
     bordered?: number | boolean | undefined;
     radiused?: boolean | undefined;
     padded?: boolean | undefined;
-    /**
-     * Used to disable the remove scroll functionality when open
-     */
     chromeless?: boolean | "all" | undefined;
 }, import("@tamagui/core").StaticConfigPublic>;
 interface DialogOverlayProps extends YStackProps {
